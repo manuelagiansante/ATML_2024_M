@@ -55,7 +55,7 @@ class GridWorld:
         # (Small) chance of something super random happening:
         self.randomChance = 0.0
 
-    def step(seolf, action: int, pos0: Optional[Pos] = None) -> tuple[Pos, numeric]:
+    def step(self, action: int, pos0: Optional[Pos] = None) -> tuple[Pos, numeric]:
         """
         Actually make a step.
         """
